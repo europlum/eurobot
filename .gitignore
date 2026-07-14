@@ -18,6 +18,7 @@ data/*
 outputs/*
 !outputs/.gitkeep
 
+!outputs/plots/
 outputs/plots/*
 !outputs/plots/.gitkeep
 

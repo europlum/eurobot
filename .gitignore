@@ -1,0 +1,29 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment variables (API keys, DB credentials, brokerage tokens)
+.env
+.env.local
+
+# Heavy data files
+data/*
+!data/.gitkeep
+
+outputs/*
+!outputs/.gitkeep
+
+outputs/plots/*
+!outputs/plots/.gitkeep
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
